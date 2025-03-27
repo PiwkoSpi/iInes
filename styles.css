@@ -1,0 +1,110 @@
+@font-face { font-family: Portable; src: url('../1980\ Portable.otf'); } 
+@font-face { font-family: Of80; src: url('../Oktoberfest1980.ttf'); } 
+@font-face { font-family: Of80F; src: url('../Oktoberfest1980Flat.ttf'); } 
+@font-face { font-family: Of80W; src: url('../Oktoberfest1980White.ttf'); } 
+@font-face { font-family: Tribal; src: url('../The_Tribal_Box_demo-font-FFP.ttf'); } 
+
+h1{
+background-attachment: fixed;
+color: rgb(255, 255, 255);
+background-color: rgb(36, 38, 48);
+text-align: center;
+border: 5px rgb(10, 154, 202);
+font-size:xxx-large ;
+border-radius: 10px;
+
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(171, 209, 253);
+    border-radius: 10px;
+    
+}
+h3 {
+    text-align: center;
+    background-color: rgb(158, 195, 238);
+    border-radius: 10px;
+}
+p {
+    text-align: center;
+font-size:large;
+background-color: rgba(192, 235, 252, 0.151);
+
+}
+table, th, td {
+    border: 5px solid rgb(255, 255, 255);
+}
+table td, table th {
+    border: 1px solid rgb(255, 255, 255);
+}
+table {
+    border-collapse: collapse;
+    width: 120%;
+    background-color: rgb(175, 216, 255);
+}
+tr:hover {
+    background-color: rgb(222, 240, 255);
+}
+td {
+    padding: 10px;
+    
+}
+th {
+    font-weight: bolder;
+
+}
+body {
+    background-color: rgb(228, 228, 228);
+ 
+    
+    
+}
+div {
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.KRUH {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.page-title{
+    font-family: 'Of80F';
+    font-size: 72px;
+}
+
+
+a{
+    background-color: #212833;
+    color: white;
+    padding: 8px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 7px;
+    border-radius: 2px;
+    justify-content: center;
+    display:block;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+a:hover, a:active {
+    background-color: rgb(28, 123, 187);
+}
+.image-container {
+    position: relative;
+}
+html {
+
+scroll-behavior: smooth;
+}
+
