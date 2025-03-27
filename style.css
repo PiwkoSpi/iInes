@@ -1,0 +1,214 @@
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f2; /* Light pink background */
+    color: #bbbbbb;
+}
+
+header {
+    background: #fd84c1; /* Bright pink */
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Pacifico', cursive; /* Updated font */
+    letter-spacing: 2px; /* Added spacing for a playful look */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2.5rem;
+}
+section {
+    margin-bottom: 2.5rem;
+    border: 2px solid #ffd6e8; /* Light pink border */
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #ff4891; /* Darker pink */
+    border-bottom: 2px solid #ff82c1;
+    padding-bottom: 0.5rem;
+    font-family: 'Courier New', monospace;
+    text-align: center; /* Center the title */
+}
+h2 {
+    color: #ff4891; /* Darker pink */
+    background-color: #ffb7da; /* Light pink background */
+    border-bottom: 2px solid #ff82c1;
+    padding: 0.5rem;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+p {
+    font-size: 1.1rem;
+    color: #8b1538;
+}
+
+a {
+    color: #ff4891;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ffbcdd; /* Lighter pink on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #ff80c0;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #ffe6f2; /* Light pink background for the track */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff98cb; /* Bright pink for the thumb */
+    border-radius: 10px;
+    border: 3px solid #ffe6f2; /* Adds padding around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #750633; /* Darker pink when hovered */
+}
+nav {
+    background-color: #ffb7da; /* Light pink background */
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 1.5rem; /* Space below the nav */
+}
+
+/* Style the navigation list */
+nav ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Arrange items horizontally */
+    justify-content: center; /* Center the items */
+    gap: 1rem; /* Add spacing between items */
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the navigation links */
+nav a {
+    color: #ff4891; /* Darker pink for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem; /* Add padding for clickable area */
+    border: 2px solid transparent; /* Add border for hover effect */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #ffe6f2; /* Light pink background on hover */
+    color: #850035; /* Darker pink text on hover */
+    border: 2px solid #ff82c1; /* Add a border on hover */
+}
+nav a {
+    color: #ff5297; /* Darker pink for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    font-size: 1.2rem; /* Slightly larger font size */
+    font-family: 'Pacifico', cursive; /* Use a decorative font */
+    padding: 0.5rem 1rem; /* Add padding for clickable area */
+    border: 2px solid transparent; /* Add border for hover effect */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    letter-spacing: 1px; /* Add spacing between letters */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #ffcde5; /* Light pink background on hover */
+    color: #ff3083; /* Darker pink text on hover */
+    border: 2px solid #ff82c1; /* Add a border on hover */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+footer p {
+    margin: 0;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #ff80c0;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    border-top: 3px solid #ffd6e8; /* Light pink border */
+}
+
+.cat-sticker {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#header-cat {
+    top: 10px;
+    right: 10px;
+}
+
+#intro-cat {
+    position: relative;
+    display: block;
+    margin: 10px auto;
+}
+
+#education-cat {
+    position: relative;
+    float: right;
+    margin: 10px;
+}
+
+.photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
